@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://i.pinimg.com/originals/73/d3/eb/73d3eb6181f834ba7b0879067b32ec19.jpg");
+            background-position: center;
+            background-size: cover;
+
+
+            color: white;
+        }
+
+        .time {
+            font-size: 100px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .todo {
+            font-size: 20px;
+        }
+
+        .author {
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        .text {
+            font-size: 30px;
+            width: 80vw;
+            text-align: center;
+        }
+
+        .main {
+            width: 100vw;
+            height: 65vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sub {
+            width: 100vw;
+            height: 35vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">누구보다 빠르게 퇴근</div>
+        <div class="todo">todo list</div>
+    </div>
+    <div class="sub">
+        <div id="author" class="author">- 명언의 저자 -</div>
+        <div id="content" class="text">" 명언의 내용 "</div>
+    </div>
+</body>
+
+</html>
